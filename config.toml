@@ -1,6 +1,9 @@
-baseURL = "http://example.org/"
+# baseURL = "http://example.org/"
+baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "diagnostic-andy"
+# theme = "test1"
 
 # This will create a menu with all the sections as menu items and all the
 # sections' pages as “shadow-members”. The shadow implies that the pages isn’t
