@@ -1,11 +1,11 @@
 ---
-title: "Second article very nice"
+title: "Second recipe very nice"
 date: 2020-09-21T12:39:53+10:00
 draft: false
 # menu: mainmenu100
 menu: 
     mainmenu100:
-        name: "Second"
+        name: "Second R"
 ---
 
 this is some text
