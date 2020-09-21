@@ -1,8 +1,36 @@
 ---
-title: "About"
+title: "About Page"
 date: 2020-09-21T13:25:43+10:00
 draft: false
-menu: mainmenu100
+
+# WORKS ok - but how to specify name: ??? see below
+# menu: [mainmenu100, mainmenu200]
+
+# WORKS ok (array with strings) - but how to specify name: ? see below
+# menu: 
+#     - mainmenu100
+#     - mainmenu200
+
+# WORKS ok (array with objects, specifying name to use in menu instead of title).
+# menu: 
+#     mainmenu100:
+#         name: "About100"
+#     mainmenu200:
+#         name: "About200"
+
+# WORKS ok (array with objects, specifying name to use in menu instead of title).
+menu: 
+    mainmenu100:
+    mainmenu200:
+        name: "About200"
+
+# Tip: you can't mix a strings and objects in an array - pick one and stick to it e.g. 
+# this breaks!
+# menu: 
+#     mainmenu100
+#     mainmenu200:
+#         name: "About200"
+
 ---
 
 This is the about page

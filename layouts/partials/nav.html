@@ -1,3 +1,4 @@
+<p>all pages explcitly attached to "mainmenu100"</p>
 <ul>
     <!-- add home menu entry -->
     <li><a href="{{ .Site.BaseURL }}">Home</a></li>
@@ -19,12 +20,28 @@
 </ul>
 
 <br>
+<br>
 
-<p>another menu without explicit entries</p>
+<p>all 'sections' (e.g. <code>content/section/</code>) via config <code>sectionPagesMenu = "mainmenu200"</code>, plus any pages explictly attached to "mainmenu200"</p>
 <ul>
     {{ range .Site.Menus.mainmenu200 }}
     <li>
         <a href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+    </li>
+    {{ end }}
+</ul>
+
+<br>
+<br>
+
+<p>menu built by config attached to "mainmenu300"</p>
+<ul>
+    {{ range .Site.Menus.mainmenu300 }}
+    <li>
+        <a href="{{ .URL }}">
+            {{ .Pre }}
             {{ .Name }}
         </a>
     </li>

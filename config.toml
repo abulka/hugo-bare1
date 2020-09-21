@@ -7,3 +7,13 @@ title = "My New Hugo Site"
 # represented by a menu-item themselves, but this enables you to create a
 # top-level menu like this:
 sectionPagesMenu = "mainmenu200"
+
+# build a menu here and attach specific pages to it manually
+# still have to render the menu using nav.html partial, though
+[menu]
+  [[menu.mainmenu300]]
+    identifier = "about"
+    name = "About!!"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
