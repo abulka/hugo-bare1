@@ -1,5 +1,5 @@
 ---
-title: Other - My Hugo Journey _index.md
+title: Other _index.md
 date: 2017-03-23
 publishdate: 2017-03-24
 ---

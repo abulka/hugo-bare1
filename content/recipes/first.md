@@ -1,8 +1,8 @@
 ---
-title: "First recipe"
+title: "recipe1"
 date: 2020-09-21T12:39:46+10:00
 draft: false
-menu: "mainmenu100"
+# menu: "mainmenu100"
 ---
 
 Consetetur sit diam dolores invidunt stet diam at, dolores ea sit erat at, dolore voluptua vero sed aliquyam eirmod sit.

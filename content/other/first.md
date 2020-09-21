@@ -1,5 +1,5 @@
 ---
-title: "First article"
+title: "other1"
 date: 2020-09-21T12:39:46+10:00
 draft: false
 menu: "mainmenu100"

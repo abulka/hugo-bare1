@@ -15,4 +15,18 @@
     <li><a href="{{ .Site.BaseURL }}/other">SECTION: other</a></li>
     <li><a href="{{ .Site.BaseURL }}/recipes">SECTION: recipes</a></li>
 
+    
+</ul>
+
+<br>
+
+<p>another menu without explicit entries</p>
+<ul>
+    {{ range .Site.Menus.mainmenu200 }}
+    <li>
+        <a href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+    </li>
+    {{ end }}
 </ul>
