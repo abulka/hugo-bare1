@@ -1,0 +1,13 @@
+<ul>
+    <!-- add home menu entry -->
+    <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+    
+    <!-- add entries for anything that has front matter menu: mainmenu100 -->
+    {{ range .Site.Menus.mainmenu100 }}
+    <li>
+        <a href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+    </li>
+    {{ end }}
+</ul>

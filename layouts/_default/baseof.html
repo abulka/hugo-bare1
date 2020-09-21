@@ -3,8 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
+
+    <p style="color: rgba(180, 39, 39, 0.589);">baseof.html / header nav</p>
+    <header>
+        <nav class="header-menu">{{ partial "nav" . }}</nav>
+    </header>
+    <br><p style="color: rgba(180, 39, 39, 0.589);">baseof.html / header nav end</p>
+
     <p style="color: red;">baseof.html / body</p>
 
     <!-- Code that all your templates share, like a header -->
@@ -20,6 +28,6 @@
         <p style="color: rgba(189, 37, 37, 0.863);">baseof.html / block footer end</p>
     {{ end }}
 
-    <p style="color: red;">baseof.html / body end</p>
+    <p style="color: red;">baseof.html / body end P.S. the .Site.BaseURL is {{ .Site.BaseURL }}</p>
   </body>
 </html>

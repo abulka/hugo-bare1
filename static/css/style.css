@@ -1,0 +1,28 @@
+
+/* remove default bullt point styling */
+.header-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* works ok but no border */
+/*
+.header-menu li {
+    display: inline;
+} 
+*/
+
+/* .header {
+    display: block;
+} */
+
+.header-menu li {
+    float: left;
+}
+.header-menu a {
+    display: block;
+    padding: 8px;
+    background-color: #5b065e;
+  }
+
