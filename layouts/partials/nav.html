@@ -1,7 +1,7 @@
 <ul>
     <!-- add home menu entry -->
     <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-    
+
     <!-- add entries for anything that has front matter menu: mainmenu100 -->
     {{ range .Site.Menus.mainmenu100 }}
     <li>
@@ -10,4 +10,9 @@
         </a>
     </li>
     {{ end }}
+
+    <!-- content sections -->
+    <li><a href="{{ .Site.BaseURL }}/other">SECTION: other</a></li>
+    <li><a href="{{ .Site.BaseURL }}/recipes">SECTION: recipes</a></li>
+
 </ul>
