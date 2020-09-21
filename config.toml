@@ -10,10 +10,26 @@ sectionPagesMenu = "mainmenu200"
 
 # build a menu here and attach specific pages to it manually
 # still have to render the menu using nav.html partial, though
+#  note "fa fa-sign-in" is FontAwesome 4-syntax, whereas "fas fa-sign-in" is FA5. 
+# https://fontawesome.com/v4.7.0/icons/
 [menu]
+  [[menu.mainmenu300]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-battery-half'></i>"
+    url = "/"
+    weight = -110
+
+  [[menu.mainmenu300]]
+    identifier = "recipes"
+    name = "Recipes"
+    pre = "<i class='fa fa-bookmark'></i>"
+    url = "/recipes/"
+    weight = 2
+
   [[menu.mainmenu300]]
     identifier = "about"
     name = "About!!"
     pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
-    weight = -110
+    weight = 99
