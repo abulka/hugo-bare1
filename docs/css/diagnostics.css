@@ -1,0 +1,41 @@
+/* diagnostic colours */
+
+.header-nav {
+  color: rgba(180, 39, 39, 0.589);
+}
+
+.base-body {
+    color: red;
+}
+
+.base-footer {
+    color: rgba(189, 37, 37, 0.863);
+}
+
+.list-main {
+    color: green;
+}
+
+.list-h1 {
+    color: indigo;
+}
+
+.list-content {
+    color: lightseagreen;
+}
+
+.list-content i {
+    color: lightslategray;
+}
+
+.list-pages {
+    color: midnightblue;
+}
+
+.single-content {
+    color: hotpink;
+}
+
+.home-main {
+    color: maroon;
+}

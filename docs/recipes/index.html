@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title> My Bare Diagnostic Hugo Site Theme </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://abulka.github.io/hugo-bare1/css/diagnostics.css">
     <link rel="stylesheet" type="text/css" href="https://abulka.github.io/hugo-bare1/css/style.css">
   </head>
   <body>
 
-    <p style="color: rgba(180, 39, 39, 0.589);">baseof.html / header nav</p>
+    <p class="header-nav">baseof.html / header nav</p>
     <header>
         <nav class="header-menu"><p>all pages explcitly attached to "mainmenu100"</p>
 <ul>
@@ -111,32 +112,32 @@
 </ul>
 </nav>
     </header>
-    <br><p style="color: rgba(180, 39, 39, 0.589);">baseof.html / header nav end</p>
+    <br><p class="header-nav">baseof.html / header nav end</p>
 
-    <p style="color: red;">baseof.html / body</p>
+    <p class="base-body">baseof.html / body</p>
 
     
     
-<p style="color: green;">list.html</p>
+<p class="list-main">list.html</p>
 <main>
     <article>
-        <p style="color: greenyellow;">list.html / header / h1 / .Title</p>
+        <p class="list-h1">list.html / header / h1 / .Title</p>
         <header>
             <h1>Recipes _index.html</h1>
         </header>
-        <p style="color: greenyellow;">list.html / header / h1 / .Title end</p>
+        <p class="list-h1">list.html / header / h1 / .Title end</p>
 
-        <p style="color: yellow;">list.html / .Content <i style="color: rgba(228, 238, 89, 0.623);">(pulls from the markdown content of the corresponding _index.md)</i></p>
+        <p class="list-content">list.html / .Content <i>(pulls from the markdown content of the corresponding _index.md)</i></p>
         
         
 I decided to start learning Hugo in September 2020.
 
 Follow my journey through this new blog.
 
-        <p style="color: yellow;">list.html / .Content end</p>
+        <p class="list-content">list.html / .Content end</p>
     </article>
 
-    <p style="color: rgba(209, 221, 33, 0.774);">list.html / range .Pages is Pages(2)</p>
+    <p class="list-pages">list.html / range .Pages is Pages(2)</p>
     <ul>
     
     
@@ -149,19 +150,19 @@ Follow my journey through this new blog.
         </li>
     
     </ul>
-    <p style="color: rgba(209, 221, 33, 0.774);">list.html / range .Pages end</p>
+    <p class="list-pages">list.html / range .Pages end</p>
 
     
 </main>
-<p style="color: green;">list.html end</p>
+<p class="list-main">list.html end</p>
 
 
     
-        <p style="color: rgba(189, 37, 37, 0.863);">baseof.html / block footer</p>
+        <p class="base-footer">baseof.html / block footer</p>
         
-        <p style="color: rgba(189, 37, 37, 0.863);">baseof.html / block footer end</p>
+        <p class="base-footer">baseof.html / block footer end</p>
     
 
-    <p style="color: red;">baseof.html / body end P.S. the .Site.BaseURL is https://abulka.github.io/hugo-bare1/</p>
+    <p class="base-body">baseof.html / body end P.S. the .Site.BaseURL is https://abulka.github.io/hugo-bare1/</p>
   </body>
 </html>
