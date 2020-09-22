@@ -23,6 +23,8 @@
 .header-menu a {
     display: block;
     padding: 8px;
-    background-color: #5b065e;
+    background-color: whitesmoke;
+    /* border-width: 1px;
+    border-style: ridge; */
   }
 
