@@ -14,6 +14,7 @@
 
 .list-main {
     color: green;
+    font-size: 30px;
 }
 
 .list-h1 {
@@ -34,8 +35,14 @@
 
 .single-content {
     color: hotpink;
+    font-size: 30px;
 }
 
 .home-main {
-    color: maroon;
+    color: green;
+    font-size: 30px;
+}
+
+.home-note {
+    color: olivedrab;
 }
