@@ -8,7 +8,9 @@ theme = "diagnostic-andy"
 
 publishDir = "docs"
 # need to set to true to make image links generated with full path incl. the 'hugo-docsy-example' sub-path 
-canonifyurls = false
+# aha - also affects references to style sheets e.g. <link rel="stylesheet" type="text/css" href="/css/style.css">
+# comes out wrong when deployed to github project pages
+canonifyurls = true
 
 # This will create a menu with all the sections as menu items and all the
 # sections' pages as “shadow-members”. The shadow implies that the pages isn’t
