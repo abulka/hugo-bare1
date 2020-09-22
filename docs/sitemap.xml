@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/about/</loc>
+    <lastmod>2020-09-21T13:25:43+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/other/second/</loc>
+    <lastmod>2020-09-21T12:39:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/recipes/second/</loc>
+    <lastmod>2020-09-21T12:39:53+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/</loc>
+    <lastmod>2020-09-21T12:39:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/other/first/</loc>
+    <lastmod>2020-09-21T12:39:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/recipes/first/</loc>
+    <lastmod>2020-09-21T12:39:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/recipes/</loc>
+    <lastmod>2018-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/other/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://abulka.github.io/hugo-bare1/tags/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> My Bare Diagnostic Hugo Site Theme </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+
+    <p style="color: rgba(180, 39, 39, 0.589);">baseof.html / header nav</p>
+    <header>
+        <nav class="header-menu"><p>all pages explcitly attached to "mainmenu100"</p>
+<ul>
+    
+    <li><a href="https://abulka.github.io/hugo-bare1/">Home</a></li>
+
+    
+    
+    <li>
+        <a href="/hugo-bare1/about/">
+            About Page
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/other/first/">
+            other1
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/other/second/">
+            other2 name
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/recipes/second/">
+            recipe2 name
+        </a>
+    </li>
+    
+
+    
+    <li><a href="https://abulka.github.io/hugo-bare1//other">SECTION: other</a></li>
+    <li><a href="https://abulka.github.io/hugo-bare1//recipes">SECTION: recipes</a></li>
+
+    
+</ul>
+
+<br>
+<br>
+
+<p>all 'sections' (e.g. <code>content/section/</code>) via config <code>sectionPagesMenu = "mainmenu200"</code>, plus any pages explictly attached to "mainmenu200"</p>
+<ul>
+    
+    <li>
+        <a href="/hugo-bare1/about/">
+            About200
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/other/">
+            Other _index.md
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/recipes/">
+            Recipes _index.html
+        </a>
+    </li>
+    
+</ul>
+
+<br>
+<br>
+
+<p>menu built by config attached to "mainmenu300"</p>
+<ul>
+    
+    <li>
+        <a href="/hugo-bare1/">
+            <i class='fa fa-battery-half'></i>
+            Home
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/recipes/">
+            <i class='fa fa-bookmark'></i>
+            Recipes
+        </a>
+    </li>
+    
+    <li>
+        <a href="/hugo-bare1/about/">
+            <i class='fa fa-heart'></i>
+            About!!
+        </a>
+    </li>
+    
+</ul>
+</nav>
+    </header>
+    <br><p style="color: rgba(180, 39, 39, 0.589);">baseof.html / header nav end</p>
+
+    <p style="color: red;">baseof.html / body</p>
+
+    
+    
+<p style="color: green;">list.html</p>
+<main>
+    <article>
+        <p style="color: greenyellow;">list.html / header / h1 / .Title</p>
+        <header>
+            <h1>Recipes _index.html</h1>
+        </header>
+        <p style="color: greenyellow;">list.html / header / h1 / .Title end</p>
+
+        <p style="color: yellow;">list.html / .Content <i style="color: rgba(228, 238, 89, 0.623);">(pulls from the markdown content of the corresponding _index.md)</i></p>
+        
+        
+I decided to start learning Hugo in September 2020.
+
+Follow my journey through this new blog.
+
+        <p style="color: yellow;">list.html / .Content end</p>
+    </article>
+
+    <p style="color: rgba(209, 221, 33, 0.774);">list.html / range .Pages is Pages(2)</p>
+    <ul>
+    
+    
+        <li>
+            <a href="https://abulka.github.io/hugo-bare1/recipes/second/">2020-09-21 | recipe2</a>
+        </li>
+    
+        <li>
+            <a href="https://abulka.github.io/hugo-bare1/recipes/first/">2020-09-21 | recipe1</a>
+        </li>
+    
+    </ul>
+    <p style="color: rgba(209, 221, 33, 0.774);">list.html / range .Pages end</p>
+
+    
+</main>
+<p style="color: green;">list.html end</p>
+
+
+    
+        <p style="color: rgba(189, 37, 37, 0.863);">baseof.html / block footer</p>
+        
+        <p style="color: rgba(189, 37, 37, 0.863);">baseof.html / block footer end</p>
+    
+
+    <p style="color: red;">baseof.html / body end P.S. the .Site.BaseURL is https://abulka.github.io/hugo-bare1/</p>
+  </body>
+</html>

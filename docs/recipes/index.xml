@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes _index.html on My Bare Diagnostic Hugo Site Theme</title>
+    <link>https://abulka.github.io/hugo-bare1/recipes/</link>
+    <description>Recent content in Recipes _index.html on My Bare Diagnostic Hugo Site Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://abulka.github.io/hugo-bare1/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>recipe2</title>
+      <link>https://abulka.github.io/hugo-bare1/recipes/second/</link>
+      <pubDate>Mon, 21 Sep 2020 12:39:53 +1000</pubDate>
+      
+      <guid>https://abulka.github.io/hugo-bare1/recipes/second/</guid>
+      <description>this is some text
+Along calm forgot one brow he he to. Kiss sing call so the flash yet love to paphian. Times his with to condemned and whateer maidens not long. So that revel whom alas by none taste glorious, losel wassailers in fly mirth cheer which. These satiety none lyres deeds, tear the a the weary might to done of. Native grief or mighty still though into, chill since way mine from by ever that his mammon.</description>
+    </item>
+    
+    <item>
+      <title>recipe1</title>
+      <link>https://abulka.github.io/hugo-bare1/recipes/first/</link>
+      <pubDate>Mon, 21 Sep 2020 12:39:46 +1000</pubDate>
+      
+      <guid>https://abulka.github.io/hugo-bare1/recipes/first/</guid>
+      <description>Consetetur sit diam dolores invidunt stet diam at, dolores ea sit erat at, dolore voluptua vero sed aliquyam eirmod sit.
+Amet erat accusam voluptua at nonumy, lorem nonumy duo sea et gubergren aliquyam sea, dolore dolores ea eos clita tempor. Ut vero diam diam labore no elitr kasd et sed, consetetur ipsum est vero ea duo erat labore lorem sit, diam lorem duo eirmod sit ipsum diam ut ipsum. Amet stet ipsum justo amet ipsum labore consetetur voluptua takimata.</description>
+    </item>
+    
+  </channel>
+</rss>

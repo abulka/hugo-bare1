@@ -1,9 +1,14 @@
 # baseURL = "http://example.org/"
-baseURL = "http://localhost/"
+# baseURL = "http://localhost/"
+baseURL = "https://abulka.github.io/hugo-bare1/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "My Bare Diagnostic Hugo Site Theme"
 theme = "diagnostic-andy"
 # theme = "test1"
+
+publishDir = "docs"
+# need to set to true to make image links generated with full path incl. the 'hugo-docsy-example' sub-path 
+canonifyurls = false
 
 # This will create a menu with all the sections as menu items and all the
 # sections' pages as “shadow-members”. The shadow implies that the pages isn’t
