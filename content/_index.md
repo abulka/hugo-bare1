@@ -5,5 +5,4 @@ draft: false
 # menu: "mainmenu100"
 ---
 
-This is _index.md in root of content
-
+This is file `content/_index.md`

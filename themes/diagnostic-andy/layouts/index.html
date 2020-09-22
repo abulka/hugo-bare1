@@ -1,7 +1,9 @@
 {{ define "main" }}
 
-<p class="home-main">HOME PAGE <code>themes/diagnostic-andy/layouts/index.html</code></p>
-<h1 class="title">.Site.Title is: {{ .Site.Title }}</h1>
+<p class="home-main">HOME PAGE</p>
+
+<p class="home-note">Theme template file is <code>themes/diagnostic-andy/layouts/index.html</code> with 
+<code>.Site.Title</code> "<b>{{ .Site.Title }}</b>" pulling in .Content thus:</p>
 
 {{ .Content }}
 
