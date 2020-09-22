@@ -10,7 +10,7 @@ Visit this site at https://github.com/abulka/hugo-bare1
 
 ### Home
 
-![Image](static/images/screenshot1.png?raw=true)
+![Image](static/images/screenshot1.png)
 
 ### List
 
@@ -18,4 +18,4 @@ Visit this site at https://github.com/abulka/hugo-bare1
 
 ### Single content
 
-![Image](static/images/screenshot3.png?raw=true)
+![Image](static/images/screenshot3.png)
