@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Screenshot Section on My Bare Diagnostic Hugo Site Theme</title>
+    <link>https://abulka.github.io/hugo-bare1/screenshots/</link>
+    <description>Recent content in Screenshot Section on My Bare Diagnostic Hugo Site Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Sep 2020 12:39:46 +1000</lastBuildDate><atom:link href="https://abulka.github.io/hugo-bare1/screenshots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Full Size</title>
+      <link>https://abulka.github.io/hugo-bare1/screenshots/fullsize/</link>
+      <pubDate>Mon, 21 Sep 2020 13:25:43 +1000</pubDate>
+      
+      <guid>https://abulka.github.io/hugo-bare1/screenshots/fullsize/</guid>
+      <description>Home Traditional markdown image reference only works if config has canonifyurls = true when deploying to github project page site (which are the ones with the trailing project path in the url e.g. the /projectname/ in
+baseURL = &amp;quot;https://user.github.io/projectname/&amp;quot; canonifyurls = true traditional markdown is
+![screenshot1](/images/screenshot1.png) here is the screenshot:
+  List Note this use of my custom abs-url shortcode not necessary if config has canonifyurls = true
+markdown is</description>
+    </item>
+    
+    <item>
+      <title>Thumbs</title>
+      <link>https://abulka.github.io/hugo-bare1/screenshots/thumbs/</link>
+      <pubDate>Mon, 21 Sep 2020 13:25:43 +1000</pubDate>
+      
+      <guid>https://abulka.github.io/hugo-bare1/screenshots/thumbs/</guid>
+      <description>Home List Single end of page</description>
+    </item>
+    
+  </channel>
+</rss>

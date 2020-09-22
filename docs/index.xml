@@ -18,6 +18,28 @@ Amet et nonumy et dolores dolor, dolor sed kasd clita sed consetetur invidunt ip
     </item>
     
     <item>
+      <title>Full Size</title>
+      <link>https://abulka.github.io/hugo-bare1/screenshots/fullsize/</link>
+      <pubDate>Mon, 21 Sep 2020 13:25:43 +1000</pubDate>
+      
+      <guid>https://abulka.github.io/hugo-bare1/screenshots/fullsize/</guid>
+      <description>Home Traditional markdown image reference only works if config has canonifyurls = true when deploying to github project page site (which are the ones with the trailing project path in the url e.g. the /projectname/ in
+baseURL = &amp;quot;https://user.github.io/projectname/&amp;quot; canonifyurls = true traditional markdown is
+![screenshot1](/images/screenshot1.png) here is the screenshot:
+  List Note this use of my custom abs-url shortcode not necessary if config has canonifyurls = true
+markdown is</description>
+    </item>
+    
+    <item>
+      <title>Thumbs</title>
+      <link>https://abulka.github.io/hugo-bare1/screenshots/thumbs/</link>
+      <pubDate>Mon, 21 Sep 2020 13:25:43 +1000</pubDate>
+      
+      <guid>https://abulka.github.io/hugo-bare1/screenshots/thumbs/</guid>
+      <description>Home List Single end of page</description>
+    </item>
+    
+    <item>
       <title>other2</title>
       <link>https://abulka.github.io/hugo-bare1/other/second/</link>
       <pubDate>Mon, 21 Sep 2020 12:39:53 +1000</pubDate>

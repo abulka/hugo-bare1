@@ -117,31 +117,59 @@
 
     
     
-<p style="color: green;">list.html</p>
-<main>
-    <article>
-        <p style="color: greenyellow;">list.html / header / h1 / .Title</p>
-        <header>
-            <h1>Tags</h1>
-        </header>
-        <p style="color: greenyellow;">list.html / header / h1 / .Title end</p>
 
-        <p style="color: yellow;">list.html / .Content <i style="color: rgba(228, 238, 89, 0.623);">(pulls from the markdown content of the corresponding _index.md)</i></p>
-        
-        
-        <p style="color: yellow;">list.html / .Content end</p>
-    </article>
+<p style="color: hotpink;">single.html .Content</p>
 
-    <p style="color: rgba(209, 221, 33, 0.774);">list.html / range .Pages is Pages(0)</p>
-    <ul>
-    
-    
-    </ul>
-    <p style="color: rgba(209, 221, 33, 0.774);">list.html / range .Pages end</p>
+<h1 id="home">Home</h1>
+<p>Traditional markdown image reference only works if config has <code>canonifyurls = true</code> when deploying to github project page site (which are the ones with the trailing project path in the url e.g. the <code>/projectname/</code> in</p>
+<pre><code>baseURL = &quot;https://user.github.io/projectname/&quot;
+canonifyurls = true
+</code></pre><p>traditional markdown is</p>
+<pre><code>![screenshot1](/images/screenshot1.png)
+</code></pre><p>here is the screenshot:</p>
+<hr>
+<p><img src="https://abulka.github.io/hugo-bare1/images/screenshot1.png" alt="screenshot1"></p>
+<hr>
+<h1 id="list">List</h1>
+<p>Note this use of my custom <code>abs-url</code> shortcode <em>not necessary</em> if config has <code>canonifyurls = true</code></p>
+<p>markdown is</p>
+<pre><code>![screenshot2]({{&lt; abs-url &quot;images/screenshot2.png&quot; &gt;}})
+</code></pre><p>here is the screenshot:</p>
+<hr>
+<p><img src="https://abulka.github.io/hugo-bare1/images/screenshot2.png" alt="screenshot2"></p>
+<hr>
+<h1 id="single">Single</h1>
+<p>To finish off this screenshot page, here are the four techniques I&rsquo;ve developed for showing images in Hugo.</p>
+<pre><code>1. {{&lt; thumb-small &quot;/images/screenshot3.png&quot; &gt;}}
 
-    
-</main>
-<p style="color: green;">list.html end</p>
+2. {{&lt; thumb src=&quot;/images/screenshot3.png&quot; width=300 &gt;}}
+
+3. ![screenshot3]({{&lt; abs-url &quot;images/screenshot3.png&quot; &gt;}})
+
+4. ![screenshot3](/images/screenshot3.png)
+</code></pre><h2 id="1">1</h2>
+<p>Uses <code>thumb-small</code> shortcode which takes one positional parameter</p>
+<pre><code>&lt;img src=&quot;{{ .Get 0 }}&quot; width=&quot;200&quot;&gt;
+</code></pre>
+<img src="https://abulka.github.io/hugo-bare1/images/screenshot3.png" width="200">
+<h2 id="2">2</h2>
+<p>Uses <code>thumb</code> shortcode which takes named parameters</p>
+<pre><code>&lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; width=&quot;{{ .Get &quot;width&quot; }}&quot;&gt;
+</code></pre>
+<img src="https://abulka.github.io/hugo-bare1/images/screenshot3.png" width="300">
+<h2 id="3">3</h2>
+<p>Uses image markdown but wraps the url in <code>abs-url</code> which expands the url correctly on github project pages sites.</p>
+<p><img src="https://abulka.github.io/hugo-bare1/images/screenshot3.png" alt="screenshot3"></p>
+<h2 id="4">4</h2>
+<p>Traditional markdown. Simple, but needs <code>canonifyurls = true</code> when your <code>baseURL</code> is a github project pages site like <code>&quot;https://user.github.io/projectname/&quot;</code></p>
+<p><img src="https://abulka.github.io/hugo-bare1/images/screenshot3.png" alt="screenshot3"></p>
+<hr>
+<p><strong>Note</strong>, For this documentation page, the trick to displaying shortcodes (without them activating and expanding) inside code blocks is to add <code>/*</code> and <code>*/</code> inside the shortcode as per this <a href="https://github.com/gohugoio/hugo/issues/7561#issuecomment-674197381">post info</a>.</p>
+<p>end of page</p>
+
+
+<p style="color: hotpink;">single.html end</p>
+
 
 
     
